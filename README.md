@@ -1,4 +1,4 @@
-# Методы программирования 2: Множества на основе битовых полей
+# Programming Methods 2: Bitfield Based Sets
 
 [![Build Status](https://travis-ci.org/UNN-ITMM-Software/mp2-lab1-set.svg)][travis]
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
@@ -37,10 +37,9 @@ Performing the work involves solving the following tasks:
   - `test` — directory with unit tests and the main application,
      initializing the launch of tests.
   - `README.md` — information about the project that you are currently reading.
-  - `.gitignore` — list of file extensions ignored by Git when adding
-       files to the repository.
-    - `CMakeLists.txt` — is the root file for building a project using CMake.Can be used to generate a project in a development environment other than Microsoft Visual Studio.
-    - `.travis.yml` — configuration file for the automatic
+  - `.gitignore` — list of file extensions ignored by Git when adding files to the repository.
+  -  `CMakeLists.txt` — is the root file for building a project using CMake.Can be used to generate a project in a development environment other than Microsoft Visual Studio.
+  - `travis.yml` — configuration file for the automatic
        testing Travis-CI. Tests included in the template project
        regularly run on remote [infrastructure][travis].
 
